@@ -1,4 +1,4 @@
-# Enhance RISC-V Architecture Support in RTOS Embox
+# [Enhance RISC-V Architecture Support in RTOS Embox](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
 
 ## Project Overview
 This project aims to enhance the RISC-V architecture support in the Embox RTOS by integrating key components such as:
@@ -29,9 +29,9 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - **Project Proposal**: [View Proposal](https://docs.google.com/document/d/1aRfXzFN_mCHorJmdMGZrrZTLVfves6QpZ8A1rbIRiHk/edit?usp=sharing)
 
 ## Project Objectives
-- [x] Add SiFive PLIC support
-- [x] Add RISC-V CLINT support
-- [x] Add SiFive CLINT support
+- [x] [Add SiFive PLIC support](https://github.com/embox/embox/pull/3314)
+- [x] [Add RISC-V CLINT support](https://github.com/embox/embox/pull/3348)
+- [x] [Add SiFive CLINT support](https://github.com/embox/embox/pull/3356)
 - [ ] Add PMP (Physical Memory Protection) Support
 - [ ] Add FPU (Floating-Point Unit) Support
 - [ ] Add additional RISC-V architecture components support
@@ -44,6 +44,9 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 
 ### 1. Physical Memory Protection (PMP)
 To enhance secure processing and manage faults, Physical Memory Protection (PMP) limits the physical memory addresses accessible by software running on a hart. PMP provides per-hart machine-mode control registers to specify access privileges (read, write, execute) for each memory region. This feature helps prevent unauthorized access and interference from third-party code, as well as detect stack overflows, thus improving system safety and security.
+
+![Screenshot 2024-05-23 011351](https://github.com/user-attachments/assets/1ca6ef39-10da-415a-bddb-9c3b31731984)
+
 
 ### 2. Core Local Interruptor (CLINT)
 The Core Local Interruptor (CLINT) manages software and timer interrupts within the RISC-V architecture. The implementation of CLINT in Embox RTOS involves configuring software and timer interrupts, setting timer values, enabling interrupts, and managing interrupt claims and completions. This integration enhances Embox's real-time application capabilities in embedded systems.
