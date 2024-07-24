@@ -25,6 +25,7 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
   - Extends CLINT support to handle multi-hart systems, improving efficiency in managing multiple hardware threads.
 
 ## Summary
+- **Project Website**: [OSPP 2024](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
 - **Upstream Repository Fork**: [SurajSonawane2415/embox](https://github.com/SurajSonawane2415/embox)
 - **Project Proposal**: [View Proposal](https://docs.google.com/document/d/1aRfXzFN_mCHorJmdMGZrrZTLVfves6QpZ8A1rbIRiHk/edit?usp=sharing)
 
