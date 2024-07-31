@@ -46,7 +46,7 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 ### 1. Physical Memory Protection (PMP)
 To enhance secure processing and manage faults, Physical Memory Protection (PMP) limits the physical memory addresses accessible by software running on a hart. PMP provides per-hart machine-mode control registers to specify access privileges (read, write, execute) for each memory region. This feature helps prevent unauthorized access and interference from third-party code, as well as detect stack overflows, thus improving system safety and security.
 
-![Screenshot 2024-05-23 011351](https://github.com/user-attachments/assets/1ca6ef39-10da-415a-bddb-9c3b31731984)
+![Screenshot 2024-07-31 at 20-28-32 Antmicro · Adding Physical Memory Protection to the VeeR EL2 RISC-V Core](https://github.com/user-attachments/assets/da7e99c7-3572-4510-842c-50a1a3ec50d2)
 
 
 ### 2. Core Local Interruptor (CLINT)
