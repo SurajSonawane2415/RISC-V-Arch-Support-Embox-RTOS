@@ -24,6 +24,9 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [**Add SiFive CLINT Support for Multi-Hart Architecture**](https://github.com/embox/embox/pull/3356)
   - Extends CLINT support to handle multi-hart systems, improving efficiency in managing multiple hardware threads.
 
+- [**Add RISCV-PMP Support in Embox RTOS**](https://github.com/embox/embox/pull/3368)
+  - Implements Physical Memory Protection (PMP) for RISC-V, allowing for secure memory access control by configuring PMP registers, managing memory regions.
+
 ## Summary
 - **Project Website**: [OSPP 2024](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
 - **Upstream Repository Fork**: [SurajSonawane2415/embox](https://github.com/SurajSonawane2415/embox)
@@ -33,7 +36,7 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [x] [Add SiFive PLIC support](https://github.com/embox/embox/pull/3314)
 - [x] [Add RISC-V CLINT support](https://github.com/embox/embox/pull/3348)
 - [x] [Add SiFive CLINT support](https://github.com/embox/embox/pull/3356)
-- [ ] Add PMP (Physical Memory Protection) Support **(In Progress)**
+- [x] [Add PMP (Physical Memory Protection) Support](https://github.com/embox/embox/pull/3368)
 - [ ] Add FPU (Floating-Point Unit) Support
 - [ ] Add additional RISC-V architecture components support
 
