@@ -37,6 +37,7 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [x] [Add RISC-V CLINT support](https://github.com/embox/embox/pull/3348)
 - [x] [Add SiFive CLINT support](https://github.com/embox/embox/pull/3356)
 - [x] [Add PMP (Physical Memory Protection) Support](https://github.com/embox/embox/pull/3368)
+- [x] [Add PMP (Physical Memory Protection) test suite](https://github.com/embox/embox/pull/3372)
 - [ ] Add FPU (Floating-Point Unit) Support
 - [ ] Add additional RISC-V architecture components support
 
