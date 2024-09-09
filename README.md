@@ -6,13 +6,15 @@ This project aims to enhance the RISC-V architecture support in the Embox RTOS b
 - **Platform-Level Interrupt Controller (PLIC)**
 - **Floating-Point Unit (FPU)**
 - **Physical Memory Protection (PMP)**
+- **Memory Management Unit(MMU)**
 
-These additions will enable Embox to efficiently handle hardware interrupts, perform floating-point operations, and enforce memory protection. The integration of CLINT and PLIC will improve real-time interrupt handling, FPU support will enhance computational performance, and PMP will bolster security and stability by preventing unauthorized memory access.
+These additions will enable Embox to efficiently handle hardware interrupts, perform floating-point operations, enforce memory protection, and manage virtual memory. The integration of CLINT and PLIC will improve real-time interrupt handling, FPU support will enhance computational performance, PMP will bolster security by preventing unauthorized memory access, and MMU support will provide efficient memory management and address translation.
 
 ## Key Features
 - **CLINT and PLIC Integration**: Improves real-time handling of interrupts and timer management.
 - **FPU Support**: Enhances computational capabilities for floating-point operations.
 - **PMP Support**: Provides memory protection and access control to improve system security and stability.
+- **MMU Support:** Enables efficient virtual memory management and address translation, enhancing memory isolation and system stability.
 
 ## Merged Pull Requests
 - [**Implement SiFive PLIC Support in Embox RTOS**](https://github.com/embox/embox/pull/3314)
@@ -27,6 +29,12 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [**Add RISCV-PMP Support in Embox RTOS**](https://github.com/embox/embox/pull/3368)
   - Implements Physical Memory Protection (PMP) for RISC-V, allowing for secure memory access control by configuring PMP registers, managing memory regions.
 
+- [**Improve RISCV-FPU (Floating-Point Unit) Support**](https://github.com/embox/embox/pull/3418)
+  - Enhances the support for RISC-V FPU, enabling floating-point calculations and improving performance for computation-heavy tasks.
+
+- [**Add RISCV-MMU (Memory Management Unit) Support**](https://github.com/embox/embox/pull/3423)
+  - Introduces basic MMU functionality for RISC-V, allowing for address translation and virtual memory management.
+
 ## Summary
 - **Project Website**: [OSPP 2024](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
 - **Upstream Repository Fork**: [SurajSonawane2415/embox](https://github.com/SurajSonawane2415/embox)
@@ -36,10 +44,11 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [x] [Add SiFive PLIC support](https://github.com/embox/embox/pull/3314)
 - [x] [Add RISC-V CLINT support](https://github.com/embox/embox/pull/3348)
 - [x] [Add SiFive CLINT support](https://github.com/embox/embox/pull/3356)
-- [x] [Add PMP (Physical Memory Protection) Support](https://github.com/embox/embox/pull/3368)
-- [x] [Add PMP (Physical Memory Protection) test suite](https://github.com/embox/embox/pull/3372)
-- [ ] Add FPU (Floating-Point Unit) Support
-- [ ] Add additional RISC-V architecture components support
+- [x] [Add RISCV-PMP (Physical Memory Protection) Support](https://github.com/embox/embox/pull/3368)
+- [x] [Add RISCV-PMP (Physical Memory Protection) test suite](https://github.com/embox/embox/pull/3372)
+- [x] [Improve RISCV-FPU (Floating-Point Unit) Support.](https://github.com/embox/embox/pull/3418)
+- [x] [Add RISCV-MMU (Memory Management Unit) Support.](https://github.com/embox/embox/pull/3423)
+- [ ] Improve RISCV-MMU (Memory Management Unit) Support.
 
 ## Output
 - Testing results with QEMU:
