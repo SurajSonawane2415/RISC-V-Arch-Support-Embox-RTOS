@@ -16,10 +16,6 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - **PMP Support**: Provides memory protection and access control to improve system security and stability.
 - **MMU Support:** Enables efficient virtual memory management and address translation, enhancing memory isolation and system stability.
 
-Here’s the updated PR section with the additional links:
-
----
-
 ## Merged Pull Requests
 - [**Implement SiFive PLIC Support in Embox RTOS**](https://github.com/embox/embox/pull/3314)
   - Introduces the Platform-Level Interrupt Controller (PLIC) driver for the SiFive U54-MC Core. Includes functionality for enabling, disabling, setting priority, and handling interrupts for multiple harts (hardware threads).
