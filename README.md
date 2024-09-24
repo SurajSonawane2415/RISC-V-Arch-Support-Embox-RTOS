@@ -16,6 +16,10 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - **PMP Support**: Provides memory protection and access control to improve system security and stability.
 - **MMU Support:** Enables efficient virtual memory management and address translation, enhancing memory isolation and system stability.
 
+Here’s the updated PR section with the additional links:
+
+---
+
 ## Merged Pull Requests
 - [**Implement SiFive PLIC Support in Embox RTOS**](https://github.com/embox/embox/pull/3314)
   - Introduces the Platform-Level Interrupt Controller (PLIC) driver for the SiFive U54-MC Core. Includes functionality for enabling, disabling, setting priority, and handling interrupts for multiple harts (hardware threads).
@@ -23,17 +27,44 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [**Implement RISC-V CLINT Support for Interrupt Control and Timer Management**](https://github.com/embox/embox/pull/3348)
   - Provides support for Core Local Interruptor (CLINT) functionality, crucial for managing interrupts and timers in RISC-V multi-hart configurations.
 
+- [**Fix base address format in RISC-V CLINT module**](https://github.com/embox/embox/pull/3351)
+  - Corrects an issue with the base address format in the RISC-V CLINT module for proper handling of interrupts.
+
 - [**Add SiFive CLINT Support for Multi-Hart Architecture**](https://github.com/embox/embox/pull/3356)
   - Extends CLINT support to handle multi-hart systems, improving efficiency in managing multiple hardware threads.
 
+- [**Fix broken templates for RISC-V and RISC-V64**](https://github.com/embox/embox/pull/3357)
+  - Fixes and updates template issues specific to RISC-V and RISC-V64 architectures.
+
 - [**Add RISCV-PMP Support in Embox RTOS**](https://github.com/embox/embox/pull/3368)
-  - Implements Physical Memory Protection (PMP) for RISC-V, allowing for secure memory access control by configuring PMP registers, managing memory regions.
+  - Implements Physical Memory Protection (PMP) for RISC-V, allowing for secure memory access control by configuring PMP registers and managing memory regions.
+
+- [**Fix: Update PMP Register Management and API Declaration**](https://github.com/embox/embox/pull/3369)
+  - Updates PMP register management and improves the API declaration for handling memory protection.
+
+- [**Add RISCV-PMP Driver Test Suite**](https://github.com/embox/embox/pull/3372)
+  - Adds a comprehensive test suite for PMP, ensuring proper functionality and security of memory regions.
+
+- [**Update RISC-V CLINT Module to Add SMP Support**](https://github.com/embox/embox/pull/3397)
+  - Adds symmetric multiprocessing (SMP) support to the RISC-V CLINT module, improving interrupt handling across multiple cores.
+
+- [**Improve RISC-V64 Test Suite Templates**](https://github.com/embox/embox/pull/3405)
+  - Enhances test suite templates for RISC-V64, ensuring better test coverage and reliability.
+
+- [**Fix RISCV-PMP Test Suite**](https://github.com/embox/embox/pull/3392)
+  - Fixes issues in the RISC-V PMP test suite, enhancing memory protection tests.
 
 - [**Improve RISCV-FPU (Floating-Point Unit) Support**](https://github.com/embox/embox/pull/3418)
   - Enhances the support for RISC-V FPU, enabling floating-point calculations and improving performance for computation-heavy tasks.
 
 - [**Add RISCV-MMU (Memory Management Unit) Support**](https://github.com/embox/embox/pull/3423)
   - Introduces basic MMU functionality for RISC-V, allowing for address translation and virtual memory management.
+
+- [**Improve RISC-V MMU Support**](https://github.com/embox/embox/pull/3427)
+  - Improves the initial MMU support for RISC-V, refining memory management and addressing translation issues.
+
+- [**Add RISCV-MMU Test Suite**](https://github.com/embox/embox/pull/3430)
+  - Adds a test suite to ensure proper MMU functionality in RISC-V systems, covering address translation and page table management.
 
 ## Summary
 - **Project Website**: [OSPP 2024](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
@@ -44,11 +75,14 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 - [x] [Add SiFive PLIC support](https://github.com/embox/embox/pull/3314)
 - [x] [Add RISC-V CLINT support](https://github.com/embox/embox/pull/3348)
 - [x] [Add SiFive CLINT support](https://github.com/embox/embox/pull/3356)
+- [x] [Fix broken templates for RISC-V and RISC-V64](https://github.com/embox/embox/pull/3357)
 - [x] [Add RISCV-PMP (Physical Memory Protection) Support](https://github.com/embox/embox/pull/3368)
 - [x] [Add RISCV-PMP (Physical Memory Protection) test suite](https://github.com/embox/embox/pull/3372)
-- [x] [Improve RISCV-FPU (Floating-Point Unit) Support.](https://github.com/embox/embox/pull/3418)
-- [x] [Add RISCV-MMU (Memory Management Unit) Support.](https://github.com/embox/embox/pull/3423)
-- [ ] Improve RISCV-MMU (Memory Management Unit) Support.
+- [x] [Improve RISC-V64 test suite templates](https://github.com/embox/embox/pull/3405)
+- [x] [Improve RISCV-FPU (Floating-Point Unit) Support](https://github.com/embox/embox/pull/3418)
+- [x] [Add RISCV-MMU (Memory Management Unit) Support](https://github.com/embox/embox/pull/3423)
+- [x] [Improve RISC-V MMU Support](https://github.com/embox/embox/pull/3427)
+- [x] [Add RISCV-MMU test suite](https://github.com/embox/embox/pull/3430)
 
 ## Output
 - Testing results with QEMU:
