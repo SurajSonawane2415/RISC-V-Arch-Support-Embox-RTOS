@@ -123,4 +123,6 @@ The Floating-Point Unit (FPU) provides functional units for performing mathemati
 - Aleksey Zhmulin
 - Anton Bondrarev
 
+## Resources
 
+- [RISCV MMU](https://lupyuen.codeberg.page/articles/mmu.html)
