@@ -1,5 +1,5 @@
 # [Improve RISC-V Architecture Support in RTOS Embox](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
-
+![Project Logo](https://github.com/user-attachments/assets/5f98000b-9066-4b27-9120-e175900429bb)
 ## Project Overview
 This project aims to enhance the RISC-V architecture support in the Embox RTOS by integrating key components such as:
 - **Core Local Interruptor (CLINT)**
