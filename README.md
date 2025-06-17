@@ -65,7 +65,7 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 ## Summary
 - **Project Website**: [OSPP 2024](https://summer-ospp.ac.cn/org/prodetail/249c00148?list=org&navpage=org)
 - **Upstream Repository Fork**: [SurajSonawane2415/embox](https://github.com/SurajSonawane2415/embox)
-- **All PR's**: [View PR's](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fembox%2Fembox%2Fpulls%3Fq%3Dis%253Apr%2Bauthor%253ASurajSonawane2415%2Bis%253Aclosed))
+- **All PR's**: [View PR's](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fembox%2Fembox%2Fpulls%3Fq%3Dis%253Apr%2Bauthor%253ASurajSonawane2415%2Bis%253Aclosed)
 - **Project Proposal**: [View Proposal](https://docs.google.com/document/d/1aRfXzFN_mCHorJmdMGZrrZTLVfves6QpZ8A1rbIRiHk/edit?usp=sharing)
 - **Project Report**: [View Report](https://docs.google.com/document/d/1LD2zS7336UoxwnRDVccPuzta7XvfJFFoWGo3CbH38S8/edit?usp=sharing)
 
