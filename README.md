@@ -85,6 +85,7 @@ These additions will enable Embox to efficiently handle hardware interrupts, per
 ## Output
 - Testing results with QEMU:
 ![Screenshot from 2024-07-19 20-50-51](https://github.com/user-attachments/assets/8ffb41e7-802b-47a7-91ad-79a0d032f5c7)
+![image](https://github.com/user-attachments/assets/89e7e10e-d884-4bd7-a406-71a1998f80ec)
 
 ## Project Description
 
